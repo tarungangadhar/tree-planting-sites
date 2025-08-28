@@ -3,7 +3,7 @@
 
 > 📄 Full write-up: see [docs/Report.pdf](https://tarungangadhar.github.io/tree-planting-sites-website/)
 
-> Project Website: https://tarungangadhar.github.io/hybrid-pruning-3dgs-website/
+> Project Website: [https://tarungangadhar.github.io/hybrid-pruning-3dgs-website/](https://tarungangadhar.github.io/tree-planting-sites-website/)
 
 ---
 

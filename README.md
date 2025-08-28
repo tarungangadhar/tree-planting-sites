@@ -60,7 +60,7 @@ Features: DBH, CO₂ benefits, stormwater gallons saved, council district, etc.
 
 ## Report
 
-See full project report in docs/Data_Intensive_Computing_Project_Report.pdf
+See full project report in docs/Report.pdf
 
 ---
 

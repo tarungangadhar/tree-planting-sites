@@ -60,7 +60,7 @@ Features: DBH, CO₂ benefits, stormwater gallons saved, council district, etc.
 
 ## Report
 
-See full project report in docs/Report.pdf
+See full project report in [docs/Report.pdf](https://github.com/tarungangadhar/tree-planting-sites/blob/main/docs/Report.pdf)
 
 ---
 

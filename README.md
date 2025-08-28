@@ -1,4 +1,9 @@
 # Data-Driven Identification of Optimal Urban Tree Planting Sites 
+---
+
+> 📄 Full write-up: see [docs/Report.pdf](https://github.com/tarungangadhar/tree-planting-sites/blob/main/docs/Report.pdf)
+
+> Project Website: https://tarungangadhar.github.io/hybrid-pruning-3dgs-website/
 
 ---
 
@@ -55,12 +60,6 @@ Source: Buffalo Tree Inventory
 Features: DBH, CO₂ benefits, stormwater gallons saved, council district, etc.
 
 ~133,230 records, 28 columns.
-
----
-
-## Report
-
-See full project report in [docs/Report.pdf](https://github.com/tarungangadhar/tree-planting-sites/blob/main/docs/Report.pdf)
 
 ---
 

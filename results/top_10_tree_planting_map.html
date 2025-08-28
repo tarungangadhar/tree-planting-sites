@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_25ce6c58ccf2a24b2e165db80be4af4f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_25ce6c58ccf2a24b2e165db80be4af4f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_25ce6c58ccf2a24b2e165db80be4af4f = L.map(
+                "map_25ce6c58ccf2a24b2e165db80be4af4f",
+                {
+                    center: [42.891137130000004, -78.83951833555554],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3cd2259d07ebdd4f612f9d5dcfbb39fb = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_3cd2259d07ebdd4f612f9d5dcfbb39fb.addTo(map_25ce6c58ccf2a24b2e165db80be4af4f);
+        
+    
+            var marker_15915ee1f3cce9c729ffef58f2369b88 = L.marker(
+                [42.89132594, -78.80503194],
+                {
+}
+            ).addTo(map_25ce6c58ccf2a24b2e165db80be4af4f);
+        
+    
+            var icon_873be2ea91f727f82f7cfc24045417a5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "tree",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_15915ee1f3cce9c729ffef58f2369b88.setIcon(icon_873be2ea91f727f82f7cfc24045417a5);
+        
+    
+        var popup_2d2d97f7f2f90fc6d560113b21927c8c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5b9cbbc624fa8510d70d86ef2f37f265 = $(`<div id="html_5b9cbbc624fa8510d70d86ef2f37f265" style="width: 100.0%; height: 100.0%;"><b>Location:</b> 240, Gold Street, Buffalo, Erie County, New York, 14206, United States<br><b>Total Eco Benefits ($):</b> 103.05<br><b>Trees Needed:</b> 90</div>`)[0];
+                popup_2d2d97f7f2f90fc6d560113b21927c8c.setContent(html_5b9cbbc624fa8510d70d86ef2f37f265);
+            
+        
+
+        marker_15915ee1f3cce9c729ffef58f2369b88.bindPopup(popup_2d2d97f7f2f90fc6d560113b21927c8c)
+        ;
+
+        
+    
+    
+            var marker_212ffd2160694d0013d31468f44a9b51 = L.marker(
+                [42.93127368, -78.86640726],
+                {
+}
+            ).addTo(map_25ce6c58ccf2a24b2e165db80be4af4f);
+        
+    
+            var icon_659e1539de0067acf9983d3dff73fce8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "tree",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_212ffd2160694d0013d31468f44a9b51.setIcon(icon_659e1539de0067acf9983d3dff73fce8);
+        
+    
+        var popup_0b644142e059c15793f9c6336b789bf1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_50aba834e40059a43e78c2724d1df2ff = $(`<div id="html_50aba834e40059a43e78c2724d1df2ff" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Delaware Avenue, Buffalo, Erie County, New York, 14216, United States<br><b>Total Eco Benefits ($):</b> 131.26<br><b>Trees Needed:</b> 87</div>`)[0];
+                popup_0b644142e059c15793f9c6336b789bf1.setContent(html_50aba834e40059a43e78c2724d1df2ff);
+            
+        
+
+        marker_212ffd2160694d0013d31468f44a9b51.bindPopup(popup_0b644142e059c15793f9c6336b789bf1)
+        ;
+
+        
+    
+    
+            var marker_34392eefee0b9832b5bb0483deb2f9d8 = L.marker(
+                [42.96385396, -78.89681367],
+                {
+}
+            ).addTo(map_25ce6c58ccf2a24b2e165db80be4af4f);
+        
+    
+            var icon_3e3e4b57079cfb5b20b5066d81d91982 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "tree",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_34392eefee0b9832b5bb0483deb2f9d8.setIcon(icon_3e3e4b57079cfb5b20b5066d81d91982);
+        
+    
+        var popup_f8fdde023a8469d995c567c5cd8fb50b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_52ce34bfb1db8d6616b89b48937facc4 = $(`<div id="html_52ce34bfb1db8d6616b89b48937facc4" style="width: 100.0%; height: 100.0%;"><b>Location:</b> 57, Seabrook Street, Buffalo, Erie County, New York, 14207, United States<br><b>Total Eco Benefits ($):</b> 156.48<br><b>Trees Needed:</b> 85</div>`)[0];
+                popup_f8fdde023a8469d995c567c5cd8fb50b.setContent(html_52ce34bfb1db8d6616b89b48937facc4);
+            
+        
+
+        marker_34392eefee0b9832b5bb0483deb2f9d8.bindPopup(popup_f8fdde023a8469d995c567c5cd8fb50b)
+        ;
+
+        
+    
+    
+            var marker_2e5467a05dcd35637afb7c572732c9f6 = L.marker(
+                [42.84741721, -78.80542745],
+                {
+}
+            ).addTo(map_25ce6c58ccf2a24b2e165db80be4af4f);
+        
+    
+            var icon_9efc6e32f067cc6e11250708470afd16 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "tree",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2e5467a05dcd35637afb7c572732c9f6.setIcon(icon_9efc6e32f067cc6e11250708470afd16);
+        
+    
+        var popup_0437a906de8be1f5a8abfe5069f33726 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d00c27121d496875e14773158081c47b = $(`<div id="html_d00c27121d496875e14773158081c47b" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Cazenovia Parkway, Buffalo, Erie County, New York, 14220, United States<br><b>Total Eco Benefits ($):</b> 156.48<br><b>Trees Needed:</b> 85</div>`)[0];
+                popup_0437a906de8be1f5a8abfe5069f33726.setContent(html_d00c27121d496875e14773158081c47b);
+            
+        
+
+        marker_2e5467a05dcd35637afb7c572732c9f6.bindPopup(popup_0437a906de8be1f5a8abfe5069f33726)
+        ;
+
+        
+    
+    
+            var marker_ef3aa28270e5a37eabdbd9ca435f7793 = L.marker(
+                [42.83217428, -78.82692721],
+                {
+}
+            ).addTo(map_25ce6c58ccf2a24b2e165db80be4af4f);
+        
+    
+            var icon_ab5494fa1840c9b83cc6df34ec3b20c1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "tree",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ef3aa28270e5a37eabdbd9ca435f7793.setIcon(icon_ab5494fa1840c9b83cc6df34ec3b20c1);
+        
+    
+        var popup_e33294324c485c71cff34c32d143f4eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_829d2477741e88d8ba9456724406cff2 = $(`<div id="html_829d2477741e88d8ba9456724406cff2" style="width: 100.0%; height: 100.0%;"><b>Location:</b> South Park 9 Hole Golf Course, Park Drive, Buffalo, Erie County, New York, 14218, United States<br><b>Total Eco Benefits ($):</b> 167.26<br><b>Trees Needed:</b> 84</div>`)[0];
+                popup_e33294324c485c71cff34c32d143f4eb.setContent(html_829d2477741e88d8ba9456724406cff2);
+            
+        
+
+        marker_ef3aa28270e5a37eabdbd9ca435f7793.bindPopup(popup_e33294324c485c71cff34c32d143f4eb)
+        ;
+
+        
+    
+    
+            var marker_302da1fe8c298787bfa6d2562813c453 = L.marker(
+                [42.87458205, -78.80083469],
+                {
+}
+            ).addTo(map_25ce6c58ccf2a24b2e165db80be4af4f);
+        
+    
+            var icon_02972eb0fd7fc7f4a3be04d3feedd198 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "tree",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_302da1fe8c298787bfa6d2562813c453.setIcon(icon_02972eb0fd7fc7f4a3be04d3feedd198);
+        
+    
+        var popup_088642cb871b140862da0595669c7771 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b0542b635715389857daced218b30385 = $(`<div id="html_b0542b635715389857daced218b30385" style="width: 100.0%; height: 100.0%;"><b>Location:</b> 101, Wheelock Street, Kaisertown, Buffalo, Erie County, New York, 14206, United States<br><b>Total Eco Benefits ($):</b> 167.48<br><b>Trees Needed:</b> 84</div>`)[0];
+                popup_088642cb871b140862da0595669c7771.setContent(html_b0542b635715389857daced218b30385);
+            
+        
+
+        marker_302da1fe8c298787bfa6d2562813c453.bindPopup(popup_088642cb871b140862da0595669c7771)
+        ;
+
+        
+    
+    
+            var marker_7508379f58a685167476be1367068890 = L.marker(
+                [42.90847732, -78.8786598],
+                {
+}
+            ).addTo(map_25ce6c58ccf2a24b2e165db80be4af4f);
+        
+    
+            var icon_6a0ad0ae823fcd9e0e8e2a4b9cdbdc1e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "tree",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7508379f58a685167476be1367068890.setIcon(icon_6a0ad0ae823fcd9e0e8e2a4b9cdbdc1e);
+        
+    
+        var popup_28abb363fb5182f5d4006baf121e0281 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_04a5a9cebc3633cf717cff9c1f1ced00 = $(`<div id="html_04a5a9cebc3633cf717cff9c1f1ced00" style="width: 100.0%; height: 100.0%;"><b>Location:</b> 133, Ashland Avenue, Elmwood Village, Buffalo, Erie County, New York, 14222, United States<br><b>Total Eco Benefits ($):</b> 167.48<br><b>Trees Needed:</b> 84</div>`)[0];
+                popup_28abb363fb5182f5d4006baf121e0281.setContent(html_04a5a9cebc3633cf717cff9c1f1ced00);
+            
+        
+
+        marker_7508379f58a685167476be1367068890.bindPopup(popup_28abb363fb5182f5d4006baf121e0281)
+        ;
+
+        
+    
+    
+            var marker_1233aad9f29294d5803ce18637ca2429 = L.marker(
+                [42.93016893, -78.87224835],
+                {
+}
+            ).addTo(map_25ce6c58ccf2a24b2e165db80be4af4f);
+        
+    
+            var icon_c72afd099f36018e1bb8fb14f121d7fe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "tree",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1233aad9f29294d5803ce18637ca2429.setIcon(icon_c72afd099f36018e1bb8fb14f121d7fe);
+        
+    
+        var popup_f3d7d2605463c743a105f669859bc267 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4afa242af7e41c0cee529926582a8e19 = $(`<div id="html_4afa242af7e41c0cee529926582a8e19" style="width: 100.0%; height: 100.0%;"><b>Location:</b> 154, Rumsey Road, Buffalo, Erie County, New York, 14209, United States<br><b>Total Eco Benefits ($):</b> 167.47<br><b>Trees Needed:</b> 84</div>`)[0];
+                popup_f3d7d2605463c743a105f669859bc267.setContent(html_4afa242af7e41c0cee529926582a8e19);
+            
+        
+
+        marker_1233aad9f29294d5803ce18637ca2429.bindPopup(popup_f3d7d2605463c743a105f669859bc267)
+        ;
+
+        
+    
+    
+            var marker_2b0ae9a7be976409a4266c1b84d2a129 = L.marker(
+                [42.8409608, -78.80331465],
+                {
+}
+            ).addTo(map_25ce6c58ccf2a24b2e165db80be4af4f);
+        
+    
+            var icon_b50f6d8b8a862b4eb66a9bd059786e16 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "tree",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2b0ae9a7be976409a4266c1b84d2a129.setIcon(icon_b50f6d8b8a862b4eb66a9bd059786e16);
+        
+    
+        var popup_71887d95f46920a0d254379b08682b11 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_29d15ded4b85a34edee36ab7971dc860 = $(`<div id="html_29d15ded4b85a34edee36ab7971dc860" style="width: 100.0%; height: 100.0%;"><b>Location:</b> 282, Potters Road, Buffalo, Erie County, New York, 14220, United States<br><b>Total Eco Benefits ($):</b> 167.47<br><b>Trees Needed:</b> 84</div>`)[0];
+                popup_71887d95f46920a0d254379b08682b11.setContent(html_29d15ded4b85a34edee36ab7971dc860);
+            
+        
+
+        marker_2b0ae9a7be976409a4266c1b84d2a129.bindPopup(popup_71887d95f46920a0d254379b08682b11)
+        ;
+
+        
+    
+</script>
+</html>

@@ -1,7 +1,7 @@
 # Data-Driven Identification of Optimal Urban Tree Planting Sites 
 ---
 
-> 📄 Full write-up: see [docs/Report.pdf](https://tarungangadhar.github.io/tree-planting-sites-website/)
+> 📄 Full write-up: see [docs/Report.pdf](https://github.com/tarungangadhar/tree-planting-sites/blob/main/docs/Report.pdf)
 
 > Project Website: [https://tarungangadhar.github.io/hybrid-pruning-3dgs-website/](https://tarungangadhar.github.io/tree-planting-sites-website/)
 

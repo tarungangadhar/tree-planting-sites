@@ -28,7 +28,7 @@ Urban tree plantation is essential to mitigate environmental challenges such as 
 - **Regression:** R² ≈ 0.73, MAE = 23.18 (eco-benefits prediction).  
 - **Decision Tree:** Accuracy/Precision/Recall ≈ 0.91 for classification.  
 - **Priority clusters:** Cluster 1 & 4 identified as low-benefit → top candidates for tree planting.  
-- **Recommendations:** Top 10 sites proposed, with trees needed per site to reach $1,000 yearly eco-benefits:contentReference[oaicite:1]{index=1}.  
+- **Recommendations:** Top 10 sites proposed, with trees needed per site to reach $1,000 yearly eco-benefits.
 
 ---
 

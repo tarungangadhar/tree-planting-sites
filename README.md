@@ -41,7 +41,7 @@ Urban tree plantation is essential to mitigate environmental challenges such as 
 
 ---
 
-## 🚀 Quickstart
+## Quickstart
 Clone and open in Jupyter or Colab:
 
 bash-

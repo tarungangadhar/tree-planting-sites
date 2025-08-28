@@ -40,7 +40,7 @@ Urban tree plantation is essential to mitigate environmental challenges such as 
 Clone and open in Jupyter or Colab:
 
 bash-
-git clone https://github.com/<username>/tree-planting-sites.git
+git clone https://github.com/tarungangadhar/tree-planting-sites.git
 cd tree-planting-sites
 jupyter notebook code/phase_1.ipynb 
 
